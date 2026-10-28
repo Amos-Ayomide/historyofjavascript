@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="simplecalculator.css">
+</head>
+<body>
+        <div class="overallDiv1">    
+            <div class="firstDiv">
+            <h1 class="sC">Simple Calculator</h1>
+
+            <span class="input">
+                <input type="number" id="firstNo">
+                <p id="sign"></p>
+                <input type="number" id="secondNo">
+            </span>
+            <p>Operators</p>
+            <button onclick="add()"> + </button> <button onclick="sub()"> - </button> <br /><br /><br />
+            <button onclick="multiply()"> x </button> <button onclick="div()"> / </button>
+            
+            <br />
+            <h2 id="answer"></h2>
+            </div>
+
+
+            <div class="secondDiv">
+                <h1 class="rC">Retirement Calculator</h1>
+
+                <br />
+                <input type="number" id="onlyNo" placeholder="Enter your birth year!!!"> 
+                <button onclick="retirecalc()">Check</button>
+
+                <h2 id="finalize"></h2>
+
+            </div>
+
+        </div>
+
+
+
+
+    <script src="simplecalculator.js"></script>
+</body>
+</html>

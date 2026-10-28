@@ -1,0 +1,113 @@
+body{
+    background: #0A1128;
+}
+
+.overallDiv1{
+    display: flex;
+}
+div.firstDiv{
+    color: white;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.15);
+    border-radius: 16px;
+    width: 40%;
+    margin: 20px;
+    padding: 30px;
+    justify-items: center;
+    button{
+       margin-left: 25%;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        font-size: 28px;
+        background: #2ecc71;
+        border: none; 
+        color: black;
+        font-weight: bold;
+        transition: transform 0.3s;
+    }
+    button:hover{
+        background: skyblue;
+        color: green;
+        transform: scale(1.1)
+    }
+    
+    input{
+        margin-left: 10px;
+        width: 70px;
+        height: 30px;
+        background: rgb(2,2,37);
+        border: none;
+        color: white;
+        border-radius: 10px;
+        padding-left: 6px;
+    }
+       
+    #firstNo{
+            margin-left: 10px;
+        }
+    
+    .input{
+        display: flex;
+        p{
+            margin-top: 6px;
+            margin-left: 20px;
+        }
+    }
+    
+    #secondNo{
+        margin-left: 30px
+    }
+}
+.sC{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* SECOND DIV */
+.secondDiv{
+    color: white;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.15);
+    border-radius: 16px;
+    width: 40%;
+    margin: 20px;
+    padding: 30px;
+    justify-items: center;
+    
+    input{
+        margin-left: 15%;
+        width: 50%;
+        height: 40px;
+        background: #020225;
+        border: none;
+        border-radius: 16px;
+        color: white;
+        padding-left: 10px;
+    }
+    button{
+        margin-left: 1%;
+        background: rgba(13,162,13,0.93);
+        border: none;
+         width: 20%;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 16px;
+        
+    }
+    
+}
+
+
+/* media query */
+@media (max-width: 600px) {
+
+    div.overallDiv1{
+        display: block;
+    }
+    div.firstDiv{
+        width: 85%;
+        margin-left: 5px;
+    }
+}
