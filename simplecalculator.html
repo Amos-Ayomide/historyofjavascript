@@ -39,6 +39,79 @@
         </div>
 
 
+        <!--InvestMent CAlculator-->
+        <div class="overallDiv2">
+            <div class="thirdDiv">
+                <h1>INVESTMENT CALCULATOR</h1>
+                <p>ROI: 15%</p>
+                <span>₦
+                <input type="number" id="onlyNo2" placeholder="Amount">
+                </span>
+                <br /><br />
+
+                <select id="duration1">
+                    <option value="" disabled selected>DURATION</option>
+                    <option value="1">1 MONTH</option>
+                    <option value="2">2 MONTHS</option>
+                    <option value="3">3 MONTHS</option>
+                    <option value="4">4 MONTHS</option>
+                    <option value="5">5 MONTHS</option>
+                    <option value="6">6 MONTHS</option>
+                    <option value="7">7 MONTHS</option>
+                    <option value="8">8 MONTHS</option>
+                    <option value="9">9 MONTHS</option>
+                    <option value="10">10 MONTHS</option>
+                    <option value="11">11 MONTHS</option>
+                    <option value="12">12 MONTHS</option>
+                </select>
+
+
+                <br /><br /><br />
+
+                <button id="checkbtn1" onclick="investcalc()">
+                    Calculate Investment</button>
+                <h2 id="investans"></h2>
+                <p id="investansp"></p>
+            </div>
+
+
+            <!-- Loan Calculator -->
+                <div class="fourthDiv">
+                <h1>Loan Calculator</h1>
+                <p>IR: 15%</p>
+                <span>₦
+                <input type="number" id="onlyNo3" placeholder="Amount">
+                </span>
+                <br /><br />
+
+                <select id="duration2">
+                    <option value="" disabled selected>DURATION</option>
+                    <option value="1">1 MONTH</option>
+                    <option value="2">2 MONTHS</option>
+                    <option value="3">3 MONTHS</option>
+                    <option value="4">4 MONTHS</option>
+                    <option value="5">5 MONTHS</option>
+                    <option value="6">6 MONTHS</option>
+                    <option value="7">7 MONTHS</option>
+                    <option value="8">8 MONTHS</option>
+                    <option value="9">9 MONTHS</option>
+                    <option value="10">10 MONTHS</option>
+                    <option value="11">11 MONTHS</option>
+                    <option value="12">12 MONTHS</option>
+                </select>
+
+
+                <br /><br /><br />
+
+                <button id="checkbtn2" onclick="loancalc()">
+                    Calculate Investment</button>
+                <h2 id="loanout"></h2>
+                <p id="loanoutans" style="font-size: 24px;"></p>
+            </div>
+        </div> 
+
+
+
 
 
     <script src="simplecalculator.js"></script>
